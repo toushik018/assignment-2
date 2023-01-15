@@ -131,7 +131,7 @@
 }
 
 .feature-title .black {
-    color: #131313;
+    color: var(--main-color);
 
 }
 
@@ -160,7 +160,7 @@
 .feature-title {
     font-weight: 700;
     font-size: 40px;
-    color: #131313;
+    color: var(--main-color);
     width: 585px;
     margin-bottom: 24px;
 
@@ -322,7 +322,7 @@
 
 
 
-/* ponsor starts */
+/* Sponsor starts */
 
 
 .sponsor-container{
@@ -366,7 +366,7 @@
  @media screen  and (max-width: 576px) {
 
     .header{
-        background-color: red;
+    
         
 
     }
@@ -382,5 +382,77 @@
     .header-title{
         margin-left: 15px;
     }
+    .brand-title{
+        font-size: 20px; 
+        display: block;
+    }
+    .brand-description{
+        font-size: 10px;
+        width: 300px;
+    }
+
+
+    /* features section */
+
+    .feature-left {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin-left: 0;
+    }
+
+    .features-container {
+        width: 50%;
+        display: block;
+        margin-bottom: 130px;
+    }
+
+    .feature-container-2 {
+        display: flex;
+        gap: 54px;
+        margin-bottom: 130px;
+        width: 90%;
     
+    }
+
+
+    /* Boxes styles */
+
+    .box-container{
+        display: block;
+    }
+    .box{
+        margin-bottom: 24px;
+    }
+
+
+    /* Sponsors Section */
+    
+
+    .sponsor-title{
+        font-weight: 700;
+        font-size: 30px;
+        width: 250px;
+     }
+
+     .sponsor-description{
+
+        width: 250px;
+        
+     }
+
+     .sponsors-image{
+        display: block;
+        align-items: center;
+        margin-bottom: 20px;
+     }
+     .sponsors-image img{
+
+        margin-bottom: 20px;
+     }
+
+     /* Footer section */
+
+     .footer{
+        width: 250px;
+     }
  }
