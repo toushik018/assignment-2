@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;800&family=Poppins:wght@500;600&display=swap');
+
+:root {
+    --main-color: #131313;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.header {
+    background-color: #FEF5E7;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 40px;
+}
+
+.nav-menu ul li {
+    display: inline-block;
+    margin-left: 40px;
+}
+
+.nav-menu ul li a {
+    text-decoration: none;
+    color: var(--main-color);
+}
+
+
+/* Brand New Sections's styles starts */
+
+.section-container {
+    display: flex;
+    margin-top: 105px;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.brand-container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 860px;
+    align-items: center;
+}
+
+.brand-title {
+    font-weight: 700px;
+    font-size: 45px;
+    color: #131313;
+    text-align: center;
+}
+
+.brand-description {
+    color: #727272;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+}
+
+.primary-button button {
+    border: none;
+    width: 180px;
+    height: 60px;
+    color: white;
+    background: #FF900E;
+    border-radius: 8px;
+    font-size: 20px;
+}
+
+.primary-button button a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.brand-image {
+    width: 80%;
+    margin-bottom: 45px;
+}
+
+.brand-image img {
+    width: 100%;
+}
+
+
+/* Features section's style starts */
+
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 130px;
+}
+
+.features-container {
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-bottom: 130px;
+}
+
+.feature-left{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    margin-top: 85px;
+}
+
+.feature-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+    margin-left: 76px;
+}
+
+.feature-title {
+    color: #727272;
+    font-weight: 500;
+    font-size: 45px;
+}
+
+.feature-title .black {
+    color: #131313;
+
+}
+
+.feature-title .yellow {
+    color: #FF900E;
+}
+
+.feature-description {
+    color: #727272;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+
+
+/* Love and enjoy's style starts */
+
+.feature-container-2 {
+    display: flex;
+    gap: 54px;
+    margin-bottom: 130px;
+}
+
+.feature-text-container-2 {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.feature-title-container-2{
+    
+    gap: 25px;
+}
+
+.love-title {
+    font-weight: 700;
+    font-size: 40px;
+    color: #131313;
+    width: 585px;
+
+}
+
+.love-description {
+    color: #727272;
+    font-weight: 400;
+    font-size: 16px;
+    width: 585px;
+}
+
+.love-sub-container {
+    width: 585px;
+    height: 170px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    justify-content: center;
+}
+
+.love-sub-title {
+    width: 250px;
+    font-weight: 600;
+    font-size: 20px;
+    position: relative;
+    left: 30px;
+}
+
+.love-sub-description {
+    color: #727272;
+    font-weight: 400;
+    font-size: 16px;
+    width: 510px;
+    position: relative;
+    left: 30px;
+}
+
+.love-image {
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+}
+
+.love-image img {
+    width: 100%;
+    height: 100%;
+}
+
+.love-button button {
+    width: 340px;
+    height: 200px;
+    background: #FF900E;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    position: relative;
+    bottom: 75px;
+}
+
+.love-button button .big {
+    font-weight: 700;
+    font-size: 65px;
+}
+
+.love-button button .small {
+    font-weight: 500;
+    font-size: 25px;
+}
+
