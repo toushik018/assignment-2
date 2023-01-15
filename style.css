@@ -13,7 +13,7 @@
 }
 
 .header {
-    background-color: #FEF5E7;
+    background-color: #FF900E1A;
 }
 
 .container {
@@ -98,7 +98,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 130px;
+
 }
 
 .features-container {
@@ -109,7 +109,7 @@
     margin-bottom: 130px;
 }
 
-.feature-left{
+.feature-left {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
@@ -153,92 +153,234 @@
     display: flex;
     gap: 54px;
     margin-bottom: 130px;
+    width: 90%;
+
 }
 
-.feature-text-container-2 {
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
-}
-
-.feature-title-container-2{
-    
-    gap: 25px;
-}
-
-.love-title {
+.feature-title {
     font-weight: 700;
     font-size: 40px;
     color: #131313;
     width: 585px;
+    margin-bottom: 24px;
 
 }
 
-.love-description {
+.feature-description {
     color: #727272;
     font-weight: 400;
     font-size: 16px;
     width: 585px;
+    margin-bottom: 30px;
 }
 
-.love-sub-container {
+.feature-sub {
     width: 585px;
     height: 170px;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
     background: #FFFFFF;
     box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
     border-radius: 8px;
     justify-content: center;
+    margin-bottom: 20px;
+    padding: 30px;
 }
 
-.love-sub-title {
-    width: 250px;
+.feature-sub-title {
+    width: 300px;
     font-weight: 600;
     font-size: 20px;
     position: relative;
     left: 30px;
 }
 
-.love-sub-description {
+.feature-sub-description {
     color: #727272;
     font-weight: 400;
     font-size: 16px;
     width: 510px;
-    position: relative;
-    left: 30px;
+
 }
 
-.love-image {
+.feature-image {
     width: 800px;
-    display: flex;
-    flex-direction: column;
+    height: 982px;
+
 }
 
-.love-image img {
-    width: 100%;
-    height: 100%;
+.feature-image img {
+    width: 700px;
+    height: 982px;
+
 }
 
-.love-button button {
+.button-2 button {
     width: 340px;
     height: 200px;
     background: #FF900E;
-    border-radius: 8px;
+    border-radius: 10px;
     border: none;
     color: white;
     position: relative;
-    bottom: 75px;
+    bottom: 100px;
+    right: 50px;
+
 }
 
-.love-button button .big {
+.button-2 button .big {
     font-weight: 700;
     font-size: 65px;
 }
 
-.love-button button .small {
+.button-2 button .small {
     font-weight: 500;
     font-size: 25px;
 }
 
+
+/* Some Facts sections styles */
+
+
+
+.facts-container {
+    margin: 100px 240px;
+}
+
+.facts-title {
+    margin: 130px 0 24px 0;
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+
+.facts-description {
+    width: 540px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    margin-bottom: 100px;
+}
+
+.box-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.box {
+    width: 240px;
+    height: 240px;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    text-align: center;
+    padding-top: 45px;
+    transition: width 1s, box-shadow, border-color, transform;
+}
+
+.box:hover {
+    width: 500px;
+    border-color: #727272;
+    box-shadow: 0px 4px 30px rgba(162, 109, 109, 0.225);
+
+}
+
+.box-works {
+    font-weight: 600;
+    font-size: 45px;
+    color: #424242;
+    transition: font-size 1s, font-weight;
+}
+
+.box-works:hover {
+    font-weight: 900;
+    font-size: 55px;
+}
+
+.box-info {
+    font-weight: 600;
+    font-size: 20px;
+    color: #727272;
+    transition: font-size 1s, font-weight;
+}
+
+.box-info:hover {
+    font-weight: 900;
+    font-size: 24px;
+}
+
+.box-icon {
+    width: 47.39px;
+    height: 45.22px;
+    transition: width, height 2s;
+}
+
+.box-icon:hover {
+    width: 60px;
+    height: 60px;
+    animation-duration: 1s;
+
+
+}
+
+
+
+/* ponsor starts */
+
+
+.sponsor-container{
+    justify-content: center;
+    text-align: center;
+    margin: 0 240px;
+ }
+ .sponsor-title{
+    font-weight: 700;
+    font-size: 45px;
+ }
+ .sponsor-description{
+    padding-top: 24px;
+    padding-bottom: 50px;
+    font-weight: 400;
+    font-size: 16px;
+    
+ }
+ .sponsors-image{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 120px;
+    filter: grayscale(1);
+ }
+
+ /* footer section styles  */
+
+ .footer{
+    padding: 40px 0;
+    margin: auto;
+    text-align: center;
+    background: #FFF4E7;
+    font-weight: 400;
+    font-size: 20px;
+ }
+
+
+
+ /* Mobile Responsive parts start */
+
+ @media screen  and (max-width: 576px) {
+
+    .header{
+        background-color: red;
+        
+
+    }
+    .container {
+        display: block;
+        align-items: center;
+    }
+
+    .nav-menu ul li {
+        display: block;
+        margin-left: 40px;
+    }
+    .header-title{
+        margin-left: 15px;
+    }
+    
+ }
